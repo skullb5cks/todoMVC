@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --env=develop --open",
+    "dev": "webpack --env=develop --progress --profile --colors",
+    "release": "webpack --env=release --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skullb5cks/boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skullb5cks/boilerplate/issues"
+  },
+  "homepage": "https://github.com/skullb5cks/boilerplate#readme",
+  "devDependencies": {
+    "handlebars": "^4.0.10",
+    "handlebars-template-loader": "^0.8.0",
+    "request": "^2.81.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
